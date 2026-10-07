@@ -1,38 +1,99 @@
-CSS
+css
 * {
-  box-sizing: borderbox-;
+    box-sizing: border-box;
 }
+
 body {
-  font-family: "Segoe UI", Roboto, sans-serif;
-  margin: 0;
-  background: #084ca5;
-  color: #f8f9f9;
+    font-family: "Segoe UI", comic sans-serif;
+    margin: 0;
+    background: #2196f3;
+    color: #ffffff;
 }
+
 header {
-  background: linear-gradient(120deg, #04AA6D, #058457);
-  color: #d8ba31;
-  padding: 60px 20px;
-  text-align: center;
+    background: linear-gradient(120deg, #00c6ff, #7b2ff7, #ff4ecd);
+    color: #fff200;
+    padding: 60px 20px;
+    text-align: center;
 }
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.6;
+}
+
 main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 40px 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
+
 section {
-  background: #000000;
-  border-radius: 12px;
-  padding: 24px;
-  margin-bottom: 24px;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+    background: #ffffff;
+    color: #222222;
+    border-radius: 18px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+
 section h2 {
-  margin-top: 0;
-  color: #15b47a;
+    margin-top: 0;
+    color: #ff1493;
 }
+
+.quote {
+    background: linear-gradient(135deg, #ff6ec7, #7b61ff);
+    color: white;
+}
+
+.quote h2 {
+    color: #fff200;
+}
+
+.quote p {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+
+.photo {
+    text-align: center;
+    background: linear-gradient(135deg, #00e5ff, #00c853);
+}
+
+.photo h2 {
+    color: #ffffff;
+}
+
+.photo img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #7b2ff7;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff1493;
+}
+
 footer {
-  padding: 24px;
-  text-align: center;
-  background: #9729a6;
-  font-size: 0.9rem;
+    padding: 24px;
+    text-align: center;
+    background: linear-gradient(90deg, #ff1493, #7b2ff7, #00c6ff);
+    color: white;
+    font-size: 0.9rem;
 }
